@@ -1,0 +1,22 @@
+.parallax {
+    /* The image used */
+    background-image: url("https://wallpaperaccess.com/full/3084029.jpg");
+
+    /* Set a specific height */
+    min-height: 780px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 650px) {
+
+    .parallax {
+        background-image: url("https://img.wallpapersafari.com/phone/1080/1920/9/37/q3eIsB.jpg");
+        min-height: unset !important;
+	    height: 30vh !important;
+    }
+}
